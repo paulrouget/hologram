@@ -25,6 +25,14 @@ body {
     overflow: hidden;
 }
 
+#hud {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    zIndex: 999999999;
+}
+
 div { background-size: 100% 100%; overflow: hidden;}
 
 #row1 {height: 15%}
